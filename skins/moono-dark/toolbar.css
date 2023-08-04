@@ -112,7 +112,8 @@ margin: 0 3px 2px 0;
 
 .cke_rtl .cke_toolgroup
 {
-	float: right;
+	display: flex;
+	/*float: right;*/
 	margin-left: 6px;
 	margin-right: 0;
 }
@@ -127,7 +128,8 @@ a.cke_button
 	padding: 4px 6px;
 	outline: none;
 	cursor: pointer;
-	float: left;
+	display: flex;
+	/*float: left;*/
 	border: 0;
 }
 
@@ -151,7 +153,8 @@ a.cke_button
 
 .cke_rtl .cke_button
 {
-	float: right;
+	display: flex;
+	/*float: right;*/
 }
 
 .cke_hc .cke_button
@@ -248,13 +251,15 @@ a.cke_button_disabled:active
 	margin-top: 1px;
 	width: 16px;
 	height: 16px;
-	float: left;
+	display: flex;
+	/*float: left;*/
 	display: inline-block;
 }
 
 .cke_rtl .cke_button_icon
 {
-	float: right;
+	display: flex;
+	/*float: right;*/
 }
 
 .cke_hc .cke_button_icon
@@ -271,7 +276,8 @@ a.cke_button_disabled:active
 	margin-top: 1px;
 	line-height: 17px;
 	vertical-align: middle;
-	float: left;
+	display: flex;
+	/*float: left;*/
 	cursor: default;
         color: #e5e5e5;
         text-shadow: 0 1px 0 #000;
@@ -281,7 +287,8 @@ a.cke_button_disabled:active
 {
 	padding-right: 3px;
 	padding-left: 0;
-	float: right;
+	display: flex;
+	/*float: right;*/
 }
 
 .cke_hc .cke_button_label
@@ -325,7 +332,8 @@ a.cke_button_disabled:active
    buttons into sub-groups. */
 .cke_toolbar_separator
 {
-	float: left;
+	display: flex;
+	/*float: left;*/
         background-color: #272727;
         background-color: rgba(0,0,0,.5);
 
