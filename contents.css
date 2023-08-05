@@ -80,7 +80,8 @@ hr
 img.right
 {
 	border: 1px solid #ccc;
-	float: right;
+	/*float: right; */
+	display: flex;
 	margin-left: 15px;
 	padding: 5px;
 }
@@ -88,7 +89,8 @@ img.right
 img.left
 {
 	border: 1px solid #ccc;
-	float: left;
+	/*float: left; */
+	display: flex;
 	margin-right: 15px;
 	padding: 5px;
 }
