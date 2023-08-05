@@ -193,8 +193,8 @@ Special outer level classes used in this file:
 .cke_resizer_ltr
 {
 	cursor: se-resize;
-
-	float: right;
+display: flex;
+	/*float: right;*/
 	margin-right: -4px;
 }
 
@@ -209,8 +209,8 @@ Special outer level classes used in this file:
 	border-style: dashed dashed dashed solid;
 
 	cursor: sw-resize;
-
-	float: left;
+display: flex;
+	/*float: left;*/
 	margin-left: -4px;
 	right: auto;
 }
