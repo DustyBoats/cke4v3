@@ -22,7 +22,8 @@ The following is a visual representation of its main elements:
 /* The box that holds the entire elements path. */
 .cke_path
 {
-	float: left;
+	display: flex;
+	/*float: left;*/
 	margin: -2px 0 2px;
 }
 
@@ -50,7 +51,8 @@ The following is a visual representation of its main elements:
 .cke_rtl .cke_path_item,
 .cke_rtl .cke_path_empty
 {
-	float: right;
+	display: flex;
+	/*float: right;*/
 }
 
 /* The items are <a> elements, so we define its hover states here. */
