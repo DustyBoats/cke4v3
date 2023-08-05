@@ -805,7 +805,8 @@ select.cke_dialog_ui_input_select
 
 .cke_dialog a.cke_btn_reset
 {
-	float: right;
+	display: flex;
+	/*float: right;*/
 	background: url(images/refresh.png) top left no-repeat;
 	width: 16px;
 	height: 16px;
@@ -820,13 +821,16 @@ select.cke_dialog_ui_input_select
 
 .cke_rtl .cke_dialog a.cke_btn_reset
 {
-	float: left;
+	display: flex;
+	/*float: left;*/
 }
 
 .cke_dialog a.cke_btn_locked,
 .cke_dialog a.cke_btn_unlocked
 {
-	float: left;
+
+	display: flex;
+	/*float: left;*/
 	width: 16px;
 	height: 16px;
 	background-repeat: no-repeat;
@@ -842,7 +846,8 @@ select.cke_dialog_ui_input_select
 .cke_rtl .cke_dialog a.cke_btn_locked,
 .cke_rtl .cke_dialog a.cke_btn_unlocked
 {
-	float: right;
+	display: flex;
+	/*float: right;*/
 }
 
 .cke_dialog a.cke_btn_locked
